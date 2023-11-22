@@ -1,0 +1,6 @@
+map my_map{
+	type hash;
+	key sizeof(struct in6_addr);
+	value sizeof(int);
+	max_entries 1024;
+};
